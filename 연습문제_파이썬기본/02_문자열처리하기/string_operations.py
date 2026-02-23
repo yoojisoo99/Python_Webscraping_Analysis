@@ -1,0 +1,7 @@
+text = input("문자열을 입력하세요: ")
+upper_text = text.upper()
+lower_text = text.lower()
+text_length = len(text)
+print(f"대문자: {upper_text}")
+print(f"소문자: {lower_text}")
+print(f"문자열 길이: {text_length}")

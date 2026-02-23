@@ -1,0 +1,6 @@
+text = input("문자를 입력하세요: ")
+words = text.split()
+text2 = " ".join(words)
+words_count = len(words)
+print(f"공백 제거: {text2}")
+print(f"단어 개수: {words_count}개")
